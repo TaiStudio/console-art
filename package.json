@@ -1,0 +1,29 @@
+{
+  "name": "@taistudio/console-art",
+  "version": "1.0.0",
+  "description": "console-art",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaiStudio/console-art.git"
+  },
+  "keywords": [
+    "tai",
+    "studio",
+    "console",
+    "art"
+  ],
+  "author": "Tai Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaiStudio/console-art/issues"
+  },
+  "homepage": "https://github.com/TaiStudio/console-art#readme",
+  "dependencies": {
+    "ascii-art": "^2.8.0"
+  }
+}
