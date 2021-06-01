@@ -5,7 +5,8 @@
   "main": "main.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "release": "script/release.sh"
   },
   "repository": {
     "type": "git",
