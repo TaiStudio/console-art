@@ -1,3 +1,4 @@
 node_modules/
 .env
 script/release2.sh
+.npmrc
