@@ -5,14 +5,14 @@ set -o errexit    # always exit on error
 set -o pipefail   # honor exit codes when piping
 set -o nounset    # fail on unset variables
 
-git clone "https://LeGitHubDeTai:$GH_TOKEN@github.com/TaiStudio/animeback-submit" extension
+git clone "https://LeGitHubDeTai:$GH_TOKEN@github.com/TaiStudio/console-art" extension
 cd extension
 npm ci
 
 git config user.email tai.studio@outlook.fr
 git config user.name LeGitHubDeTai
 git add .
-git commit -am "update extensions" --author "LeGitHubDeTai <tai.studio@outlook.fr>"
+git commit -am "updater BOT" --author "LeGitHubDeTai <tai.studio@outlook.fr>"
 npm version minor -m "bump minor to %s"
 git pull --rebase
 git push origin master
