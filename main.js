@@ -10,6 +10,7 @@
 
 var figlet = require('figlet');
 
+if(process.env.COPYRIGHT == null){process.env.COPYRIGHT = "Tai Studio © 2021";}
 console.log('/*--------------------------------------------------------------------------------------\\ ');
 figlet(process.env.COPYRIGHT, {
     font: "Standard"
