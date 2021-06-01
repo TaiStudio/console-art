@@ -11,7 +11,7 @@
 var figlet = require('figlet');
 
 console.log('/*--------------------------------------------------------------------------------------\\ ');
-figlet('Tai Studio © 2021', {
+figlet(process.env.COPYRIGHT, {
     font: "Standard"
 }, function(err, data) {
     if (err) {

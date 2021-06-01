@@ -1,0 +1,12 @@
+name: Notification on push
+
+on: push
+    
+jobs:
+  taistudio:
+    runs-on: ubuntu-latest
+    steps:
+    - name: console-art
+      uses: TaiStudio/console-art@main
+      env:
+        COPYRIGHT: Tai Studio © 2021
